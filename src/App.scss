@@ -2,11 +2,3 @@
 @import './styles/templateSkeleton.scss';
 @import './styles/hal.scss';
 
-nav a {
-	margin: 1%;
-}
-.all, .all div {
-	display: flex;
-	flex-wrap: wrap;
-	border: 1px solid black;
-}
