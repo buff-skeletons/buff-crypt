@@ -1,8 +1,19 @@
 import './App.scss'; // if you want a scss partial, add it to the styles folder and import it in the App.scss file
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import TemplateSkeleton from './TemplateSkeleton'
+import TemplateSkeleton from './components/TemplateSkeleton'
 // add a renamed copy of the template skeleton import with your name
-import Hal from './Hal'
+import Azalia from './components/Azalia'
+import Brennan from './components/Brennan'
+import Brodie from './components/Brodie'
+import Cal from './components/Cal'
+import Daniel from './components/Daniel'
+import Hal from './components/Hal'
+import Jasmine from './components/Jasmine'
+import Kevin from './components/Kevin'
+import Maxim from './components/Maxim'
+import Solon from './components/Solon'
+import Steven from './components/Steven'
+import Tasnia from './components/Tasnia'
 import image1 from './images/purpleEgg.png'
 import image2 from './images/originalBuffSkel.png'
 import image3 from './images/buffSkeletonLovesYou.png'
@@ -25,7 +36,18 @@ function App() {
 				<Link to='/'>Home</Link>
 				<Link to='/TemplateSkeleton'>TemplateSkeleton</Link>
 				{/* add a renamed copy of Link here */}
+				<Link to='/Azalia'>Azalia</Link>
+				<Link to='/Brennan'>Brennan</Link>
+				<Link to='/Brodie'>Brodie</Link>
+				<Link to='/Cal'>Cal</Link>
+				<Link to='/Daniel'>Daniel</Link>
 				<Link to='/Hal'>Hal</Link>
+				<Link to='/Jasmine'>Jasmine</Link>
+				<Link to='/Kevin'>Kevin</Link>
+				<Link to='/Maxim'>Maxim</Link>
+				<Link to='/Solon'>Solon</Link>
+				<Link to='/Steven'>Steven</Link>
+				<Link to='/Tasnia'>Tasnia</Link>
 			</nav>
 			<div className="all">
 				<h1>Buff Crypt</h1>
@@ -34,7 +56,18 @@ function App() {
 					<Route exact path='/'>
 						<TemplateSkeleton />
 						{/* add a renamed copy of template skeleton here, and make a copy the TemplateSkeleton.js file */}
+						<Azalia />
+						<Brennan />
+						<Brodie />
+						<Cal />
+						<Daniel />
 						<Hal />
+						<Jasmine />
+						<Kevin />
+						<Maxim />
+						<Solon />
+						<Steven />
+						<Tasnia />
 					</Route>
 				</div>
 			</div>
@@ -42,8 +75,41 @@ function App() {
 				<TemplateSkeleton />
 			</Route>
 			{/* add a renamed copy of the Route here */}
+			<Route path='/Azalia'>
+				<Azalia />
+			</Route>
+			<Route path='/Brennan'>
+				<Brennan />
+			</Route>
+			<Route path='/Brodie'>
+				<Brodie />
+			</Route>
+			<Route path='/Cal'>
+				<Cal />
+			</Route>
+			<Route path='/Daniel'>
+				<Daniel />
+			</Route>
 			<Route path='/Hal'>
 				<Hal />
+			</Route>
+			<Route path='/Jasmine'>
+				<Jasmine />
+			</Route>
+			<Route path='/Kevin'>
+				<Kevin />
+			</Route>
+			<Route path='/Maxim'>
+				<Maxim />
+			</Route>
+			<Route path='/Solon'>
+				<Solon />
+			</Route>
+			<Route path='/Steven'>
+				<Steven />
+			</Route>
+			<Route path='/Tasnia'>
+				<Tasnia />
 			</Route>
 			<div className="imgGallery">
 				<h1>Image gallery</h1>
