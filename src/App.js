@@ -29,6 +29,7 @@ function App() {
 				<Hal />
 			</Route>
 			<div className="imgGallery">
+				<h1>Image gallery</h1>
 				<img src={image1} alt="a purple egg" />
 			</div>
 		</Router>
