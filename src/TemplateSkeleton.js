@@ -1,3 +1,5 @@
+// Copy this content for your component or the entire file, it makes no difference
+
 const TemplateSkeleton = () => {
 	return (
 		<div className="templateSkeleton">
