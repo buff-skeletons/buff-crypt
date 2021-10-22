@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import TemplateSkeleton from './TemplateSkeleton'
+import Hal from './Hal'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<nav>
+				<Link to='/'>Home</Link>
+				<Link to='/TemplateSkeleton'>TemplateSkeleton</Link>
+				<Link to='/Hal'>Hal</Link>
+			</nav>
+			<div className="App">
+				<h1>Buff Crypt</h1>
+				<p>A place for buff skeletons</p>
+				<div class="all">
+					<Route exact path='/'>
+						<TemplateSkeleton />
+						<Hal />
+					</Route>
+				</div>
+			</div>
+			<Route path='/TemplateSkeleton'>
+				<TemplateSkeleton />
+			</Route>
+			<Route path='/Hal'>
+				<Hal />
+			</Route>
+		</Router>
+	);
 }
 
 export default App;
