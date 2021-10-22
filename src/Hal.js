@@ -1,4 +1,9 @@
+import { useEffect } from "react"
+
 const Hal = () => {
+	useEffect(() => {
+		console.log("You checked the console, well done!");
+	}, [])
 	return (
 		<div className="hal">
 			<h1>Important work being done</h1>
