@@ -1,0 +1,13 @@
+nav a {
+	margin: 1%;
+}
+.all, .all div {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid black;
+}
+img {
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+}
