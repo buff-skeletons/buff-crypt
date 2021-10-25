@@ -1,6 +1,20 @@
 .hal {
+	width: 50%;
 	border-radius: 10px;
+	background: rgb(27, 30, 32);
+	color: rgb(202, 245, 212);
+	align-items: center;
+	padding: 1%;
+	margin: 1%;
+	* {
+		border-radius: 10px;
+		background: rgb(27, 30, 32);
+		color: rgb(202, 245, 212);
+		align-items: center;
+		padding: 1%;
+		margin: 1%;
+	}
+	h2, a {
+		color: rgb(80, 199, 80);
 }
-.hal h2 {
-	color: green;
 }
