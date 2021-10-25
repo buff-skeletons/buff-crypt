@@ -19,6 +19,9 @@ import Corey from './components/Corey'
 import Linh from './components/Linh'
 import Rob from './components/Rob'
 import Zeynab from './components/Zeynab'
+import Bree from './components/Bree'
+import Elisabeth from './components/Elisabeth'
+import Sara from './components/Sara'
 import image1 from './images/purpleEgg.png'
 import image2 from './images/originalBuffSkel.png'
 import image3 from './images/buffSkeletonLovesYou.png'
@@ -58,6 +61,9 @@ function App() {
 				<Link to='/Linh'>Linh</Link>
 				<Link to='/Rob'>Rob</Link>
 				<Link to='/Zeynab'>Zeynab</Link>
+				<Link to='/Bree'>Bree</Link>
+				<Link to='/Elisabeth'>Elisabeth</Link>
+				<Link to='/Sara'>Sara</Link>
 			</nav>
 			<div className="all">
 				<h1>Buff Crypt</h1>
@@ -83,6 +89,9 @@ function App() {
 						<Linh />
 						<Rob />
 						<Zeynab />
+						<Bree />
+						<Elisabeth />
+						<Sara />
 					</Route>
 				</div>
 			</div>
@@ -140,6 +149,15 @@ function App() {
 			</Route>
 			<Route path='/Zeynab'>
 				<Zeynab />
+			</Route>
+			<Route path='/Bree'>
+				<Bree />
+			</Route>
+			<Route path='/Elisabeth'>
+				<Elisabeth />
+			</Route>
+			<Route path='/Sara'>
+				<Sara />
 			</Route>
 			<div className="imgGallery">
 				<h1>Image gallery</h1>
