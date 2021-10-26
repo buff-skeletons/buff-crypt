@@ -14,6 +14,12 @@
 		padding: 1%;
 		margin: 1%;
 	}
+	form {
+		width: 100%;
+	}
+	form label, form input {
+		width: 20%;
+	}
 	h2, a {
 		color: rgb(80, 199, 80);
 }
