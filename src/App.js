@@ -23,6 +23,7 @@ import Bree from './components/Bree'
 import Elisabeth from './components/Elisabeth'
 import Sara from './components/Sara'
 import Harpreet from './components/Harpreet'
+import Josh from './components/Josh'
 import image1 from './images/purpleEgg.png'
 import image2 from './images/originalBuffSkel.png'
 import image3 from './images/buffSkeletonLovesYou.png'
@@ -66,6 +67,7 @@ function App() {
 				<Link to='/Elisabeth'>Elisabeth</Link>
 				<Link to='/Sara'>Sara</Link>
 				<Link to='/Harpreet'>Harpreet</Link>
+				<Link to='/Josh'>Josh</Link>
 			</nav>
 			<div className="all">
 				<h1>Buff Crypt</h1>
@@ -95,6 +97,7 @@ function App() {
 						<Elisabeth />
 						<Sara />
 						<Harpreet />
+						<Josh />
 					</Route>
 				</div>
 			</div>
@@ -164,6 +167,9 @@ function App() {
 			</Route>
 			<Route path='/Harpreet'>
 				<Harpreet />
+			</Route>
+			<Route path='/Josh'>
+				<Josh />
 			</Route>
 			<div className="imgGallery">
 				<h1>Image gallery</h1>
