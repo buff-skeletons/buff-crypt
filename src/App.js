@@ -24,6 +24,14 @@ import Elisabeth from './components/Elisabeth'
 import Sara from './components/Sara'
 import Harpreet from './components/Harpreet'
 import Josh from './components/Josh'
+import Jim from './components/Jim'
+import Iris from './components/Iris'
+import Lou from './components/Lou'
+import Cam from './components/Cam'
+import Ryan from './components/Ryan'
+import Seungmin from './components/Seungmin'
+import Jun from './components/Jun'
+import Yousef from './components/Yousef'
 import image1 from './images/purpleEgg.png'
 import image2 from './images/originalBuffSkel.png'
 import image3 from './images/buffSkeletonLovesYou.png'
@@ -68,6 +76,14 @@ function App() {
 				<Link to='/Sara'>Sara</Link>
 				<Link to='/Harpreet'>Harpreet</Link>
 				<Link to='/Josh'>Josh</Link>
+				<Link to='/Jim'>Jim</Link>
+				<Link to='/Iris'>Iris</Link>
+				<Link to='/Lou'>Lou</Link>
+				<Link to='/Cam'>Cam</Link>
+				<Link to='/Ryan'>Ryan</Link>
+				<Link to='/Seungmin'>Seungmin</Link>
+				<Link to='/Jun'>Jun</Link>
+				<Link to='/Yousef'>Yousef</Link>
 			</nav>
 			<div className="all">
 				<h1>Buff Crypt</h1>
@@ -98,6 +114,14 @@ function App() {
 						<Sara />
 						<Harpreet />
 						<Josh />
+						<Jim />
+						<Iris />
+						<Lou />
+						<Cam />
+						<Ryan />
+						<Seungmin />
+						<Jun />
+						<Yousef />
 					</Route>
 				</div>
 			</div>
@@ -170,6 +194,30 @@ function App() {
 			</Route>
 			<Route path='/Josh'>
 				<Josh />
+			</Route>
+			<Route path='/Jim'>
+				<Jim />
+			</Route>
+			<Route path='/Iris'>
+				<Iris />
+			</Route>
+			<Route path='/Lou'>
+				<Lou />
+			</Route>
+			<Route path='/Cam'>
+				<Cam />
+			</Route>
+			<Route path='/Ryan'>
+				<Ryan />
+			</Route>
+			<Route path='/Seungmin'>
+				<Seungmin />
+			</Route>
+			<Route path='/Jun'>
+				<Jun />
+			</Route>
+			<Route path='/Yousef'>
+				<Yousef />
 			</Route>
 			<div className="imgGallery">
 				<h1>Image gallery</h1>
