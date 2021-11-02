@@ -1,4 +1,3 @@
-import MathMeme from '../images/80b.jpg'
 import ReactPlayer from 'react-player'
 
 const Azalia = () => {
