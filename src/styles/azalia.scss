@@ -1,11 +1,11 @@
 .azalia {
     display: flex;
     flex-direction: column;
-    background-color: plum;
+    background-color: rgba(243, 9, 9, 0.8);
     align-items: center;
 
     h1 {
-        color: palegreen;
+        color: green;
     }
 
     h2 {
@@ -16,9 +16,5 @@
         width: 25rem;
         height: 40rem;
     }
-    p {
-        color: rebeccapurple;
-    }
-
-
+    
 }

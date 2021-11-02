@@ -1,12 +1,14 @@
 import MathMeme from '../images/80b.jpg'
+import ReactPlayer from 'react-player'
 
 const Azalia = () => {
 	return (
 		<div className="azalia">
 			<h2>Azalia's crypt room</h2>
-			<h1>THE ONE AND ONLY H1</h1>
-			<img src={MathMeme} alt="math meme" />
-			<p>🐈 I love cats so much, especially mine, but also, like, in general. 🐈 </p>
+			<h1>MERRY CHRISTMAS</h1>
+			<h1>SECOND H1 AS AN EARLY CHRISTMAS GIFT</h1>
+			<ReactPlayer url="https://youtu.be/yXQViqx6GMY"/>
+			<p>🎄🎄🎄🎄🎄🎄 </p>
 		</div>
 	)
 }
