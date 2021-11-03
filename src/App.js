@@ -48,6 +48,7 @@ import image13 from './images/saladCommunism.png'
 import image14 from './images/terribleJob.jpg'
 
 function App() {
+	console.log("Main app did something, so mysterious");
 	return (
 		<Router>
 			<nav>
