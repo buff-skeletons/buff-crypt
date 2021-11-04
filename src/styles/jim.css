@@ -1,0 +1,14 @@
+.jim {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  text-shadow: 0.5px 0.5px orange;
+}
+.jim a {
+  color: orange;
+  text-shadow: none;
+}/*# sourceMappingURL=jim.css.map */

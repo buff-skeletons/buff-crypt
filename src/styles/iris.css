@@ -1,0 +1,28 @@
+.iris {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.iris .imgContainer {
+  border: none;
+  width: 600px;
+  margin: 25px auto;
+  opacity: 0;
+}
+.iris .imgContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.iris:hover {
+  background-color: red;
+  text-transform: uppercase;
+}
+.iris:hover h2::after {
+  content: "!!!!!";
+}
+.iris:hover .imgContainer {
+  opacity: 1;
+}/*# sourceMappingURL=iris.css.map */

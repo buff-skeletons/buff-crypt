@@ -1,0 +1,20 @@
+.steven {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+.steven input::-webkit-outer-spin-button,
+.steven input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.steven input[type=number] {
+  -moz-appearance: textfield;
+}
+.steven .collatz-chart-container {
+  padding: 1rem;
+}/*# sourceMappingURL=steven.css.map */
