@@ -20,4 +20,7 @@
   background-color: orange;
   color: black;
   border: 3px solid red;
+}
+.cal .headstone button:hover, .cal .headstone button:focus {
+  background: #cc8400;
 }/*# sourceMappingURL=cal.css.map */
