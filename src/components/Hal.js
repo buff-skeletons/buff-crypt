@@ -41,7 +41,7 @@ const Hal = () => {
 				<p>I've become obsessed with {madLibProcrast} instead of working on my {madLibPrimary}.  My {madLibPrimary} is very far from being done, which was not at all the plan.  That said, I've gotten really good at {madLibProcrast}.</p>
 			</div>
 			<a href='https://www.halcodes.ca' target="_blank" rel="noopener noreferrer">halcodes.ca</a>
-			<a href='https://three-react.netlify.app/' target="_blank" rel="noopener noreferrer">Multi user sphere flying game using react, firebase, and threeJS</a>
+			<a href='https://three-react.netlify.app/' target="_blank" rel="noopener noreferrer">Multi user sphere flying game using react, firebase, and threeJS 🔴🟠🟡🟢🔵🟣🟤⚫⚪🟥🟧🟨🟩🟦🟪🟫⬛⬜</a>
 			<p>{(darkMode === 0 ? 'Dark' : (darkMode === 1 ? 'Colorful' : (darkMode === 2 ? 'Halloween' : 'Light')))} mode is the best mode</p>
 			<button onClick={toggleDarkMode}> </button>
 			<h1>Always end with an h1</h1>
