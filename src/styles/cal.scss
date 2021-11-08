@@ -21,6 +21,10 @@
           background-color: orange;
           color: black;
           border: 3px solid red;
+
+            &:hover, &:focus {
+              background: darken(orange, 10);
+            }
         }
     }
 }
