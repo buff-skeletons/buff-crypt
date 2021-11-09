@@ -1,0 +1,16 @@
+.azalia {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(243, 9, 9, 0.8);
+  align-items: center;
+}
+.azalia h1 {
+  color: green;
+}
+.azalia h2 {
+  color: midnightblue;
+}
+.azalia img {
+  width: 25rem;
+  height: 40rem;
+}/*# sourceMappingURL=azalia.css.map */

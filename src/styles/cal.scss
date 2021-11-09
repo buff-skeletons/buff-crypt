@@ -1,0 +1,30 @@
+.cal {
+  background-color: black;
+  color: orange;
+  display: flex;
+  flex-direction: row;
+
+    .headstone {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: -30%;
+      padding-left: 20%;
+      width: 100%;
+      
+        p {
+          word-wrap: break-word;
+        }
+
+        button {
+          background-color: orange;
+          color: black;
+          border: 3px solid red;
+
+            &:hover, &:focus {
+              background: darken(orange, 10);
+            }
+        }
+    }
+}

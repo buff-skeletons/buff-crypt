@@ -1,0 +1,20 @@
+.azalia {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(243, 9, 9, 0.8);
+    align-items: center;
+
+    h1 {
+        color: green;
+    }
+
+    h2 {
+        color: midnightblue;
+    }
+
+    img {
+        width: 25rem;
+        height: 40rem;
+    }
+    
+}

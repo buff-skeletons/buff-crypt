@@ -1,0 +1,24 @@
+// Put all your scss into this file inside your .name if you only want to affect your component
+.steven {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	// Over HERE!!!  _\o
+	/* Chrome, Safari, Edge, Opera */
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+
+	/* Firefox */
+	input[type="number"] {
+		-moz-appearance: textfield;
+	}
+
+	.collatz-chart-container {
+		padding: 1rem;
+	}
+}

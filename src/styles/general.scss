@@ -1,7 +1,13 @@
-nav a {
-	margin: 1%;
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	a {
+		margin: 1%;
+	}
 }
-.all, .all div {
+.all,
+.all div {
 	display: flex;
 	flex-wrap: wrap;
 	border: 1px solid black;

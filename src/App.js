@@ -3,21 +3,34 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import TemplateSkeleton from './components/TemplateSkeleton'
 // add a renamed copy of the template skeleton import with your name
 import Azalia from './components/Azalia'
+import Bree from './components/Bree'
 import Brennan from './components/Brennan'
+import Brian from './components/Brian'
 import Brodie from './components/Brodie'
 import Cal from './components/Cal'
+import Cam from './components/Cam'
+import Corey from './components/Corey'
 import Daniel from './components/Daniel'
+import Elisabeth from './components/Elisabeth'
 import Hal from './components/Hal'
+import Harpreet from './components/Harpreet'
+import Iris from './components/Iris'
 import Jasmine from './components/Jasmine'
+import Jim from './components/Jim'
+import Josh from './components/Josh'
+import Jun from './components/Jun'
 import Kevin from './components/Kevin'
+import Linh from './components/Linh'
+import Lou from './components/Lou'
 import Maxim from './components/Maxim'
+import Rob from './components/Rob'
+import Ryan from './components/Ryan'
+import Sara from './components/Sara'
+import Seungmin from './components/Seungmin'
 import Solon from './components/Solon'
 import Steven from './components/Steven'
 import Tasnia from './components/Tasnia'
-import Brian from './components/Brian'
-import Corey from './components/Corey'
-import Linh from './components/Linh'
-import Rob from './components/Rob'
+import Yousef from './components/Yousef'
 import Zeynab from './components/Zeynab'
 import image1 from './images/purpleEgg.png'
 import image2 from './images/originalBuffSkel.png'
@@ -35,6 +48,7 @@ import image13 from './images/saladCommunism.png'
 import image14 from './images/terribleJob.jpg'
 
 function App() {
+	console.log("Main app did something, so mysterious");
 	return (
 		<Router>
 			<nav>
@@ -42,21 +56,34 @@ function App() {
 				<Link to='/TemplateSkeleton'>TemplateSkeleton</Link>
 				{/* add a renamed copy of Link here */}
 				<Link to='/Azalia'>Azalia</Link>
+				<Link to='/Bree'>Bree</Link>
 				<Link to='/Brennan'>Brennan</Link>
+				<Link to='/Brian'>Brian</Link>
 				<Link to='/Brodie'>Brodie</Link>
 				<Link to='/Cal'>Cal</Link>
+				<Link to='/Cam'>Cam</Link>
+				<Link to='/Corey'>Corey</Link>
 				<Link to='/Daniel'>Daniel</Link>
+				<Link to='/Elisabeth'>Elisabeth</Link>
 				<Link to='/Hal'>Hal</Link>
+				<Link to='/Harpreet'>Harpreet</Link>
+				<Link to='/Iris'>Iris</Link>
 				<Link to='/Jasmine'>Jasmine</Link>
+				<Link to='/Jim'>Jim</Link>
+				<Link to='/Josh'>Josh</Link>
+				<Link to='/Jun'>Jun</Link>
 				<Link to='/Kevin'>Kevin</Link>
+				<Link to='/Linh'>Linh</Link>
+				<Link to='/Lou'>Lou</Link>
 				<Link to='/Maxim'>Maxim</Link>
+				<Link to='/Rob'>Rob</Link>
+				<Link to='/Ryan'>Ryan</Link>
+				<Link to='/Sara'>Sara</Link>
+				<Link to='/Seungmin'>Seungmin</Link>
 				<Link to='/Solon'>Solon</Link>
 				<Link to='/Steven'>Steven</Link>
 				<Link to='/Tasnia'>Tasnia</Link>
-				<Link to='/Brian'>Brian</Link>
-				<Link to='/Corey'>Corey</Link>
-				<Link to='/Linh'>Linh</Link>
-				<Link to='/Rob'>Rob</Link>
+				<Link to='/Yousef'>Yousef</Link>
 				<Link to='/Zeynab'>Zeynab</Link>
 			</nav>
 			<div className="all">
@@ -67,21 +94,34 @@ function App() {
 						<TemplateSkeleton />
 						{/* add a renamed copy of template skeleton here, and make a copy the TemplateSkeleton.js file */}
 						<Azalia />
+						<Bree />
 						<Brennan />
+						<Brian />
 						<Brodie />
 						<Cal />
+						<Cam />
+						<Corey />
 						<Daniel />
+						<Elisabeth />
 						<Hal />
+						<Harpreet />
+						<Iris />
 						<Jasmine />
+						<Josh />
+						<Jim />
+						<Jun />
 						<Kevin />
+						<Linh />
+						<Lou />
 						<Maxim />
+						<Rob />
+						<Ryan />
+						<Sara />
+						<Seungmin />
 						<Solon />
 						<Steven />
 						<Tasnia />
-						<Brian />
-						<Corey />
-						<Linh />
-						<Rob />
+						<Yousef />
 						<Zeynab />
 					</Route>
 				</div>
@@ -93,8 +133,14 @@ function App() {
 			<Route path='/Azalia'>
 				<Azalia />
 			</Route>
+			<Route path='/Bree'>
+				<Bree />
+			</Route>
 			<Route path='/Brennan'>
 				<Brennan />
+			</Route>
+			<Route path='/Brian'>
+				<Brian />
 			</Route>
 			<Route path='/Brodie'>
 				<Brodie />
@@ -102,20 +148,62 @@ function App() {
 			<Route path='/Cal'>
 				<Cal />
 			</Route>
+			<Route path='/Cam'>
+				<Cam />
+			</Route>
+			<Route path='/Corey'>
+				<Corey />
+			</Route>
 			<Route path='/Daniel'>
 				<Daniel />
+			</Route>
+			<Route path='/Elisabeth'>
+				<Elisabeth />
 			</Route>
 			<Route path='/Hal'>
 				<Hal />
 			</Route>
+			<Route path='/Harpreet'>
+				<Harpreet />
+			</Route>
+			<Route path='/Iris'>
+				<Iris />
+			</Route>
 			<Route path='/Jasmine'>
 				<Jasmine />
+			</Route>
+			<Route path='/Jim'>
+				<Jim />
+			</Route>
+			<Route path='/Josh'>
+				<Josh />
+			</Route>
+			<Route path='/Jun'>
+				<Jun />
 			</Route>
 			<Route path='/Kevin'>
 				<Kevin />
 			</Route>
+			<Route path='/Linh'>
+				<Linh />
+			</Route>
+			<Route path='/Lou'>
+				<Lou />
+			</Route>
 			<Route path='/Maxim'>
 				<Maxim />
+			</Route>
+			<Route path='/Rob'>
+				<Rob />
+			</Route>
+			<Route path='/Ryan'>
+				<Ryan />
+			</Route>
+			<Route path='/Sara'>
+				<Sara />
+			</Route>
+			<Route path='/Seungmin'>
+				<Seungmin />
 			</Route>
 			<Route path='/Solon'>
 				<Solon />
@@ -126,17 +214,8 @@ function App() {
 			<Route path='/Tasnia'>
 				<Tasnia />
 			</Route>
-			<Route path='/Brian'>
-				<Brian />
-			</Route>
-			<Route path='/Corey'>
-				<Corey />
-			</Route>
-			<Route path='/Linh'>
-				<Linh />
-			</Route>
-			<Route path='/Rob'>
-				<Rob />
+			<Route path='/Yousef'>
+				<Yousef />
 			</Route>
 			<Route path='/Zeynab'>
 				<Zeynab />

@@ -1,6 +1,204 @@
+$halPrimaryDarkColor: rgb(27, 30, 32);
+$halSecondaryDarkColor: rgb(202, 245, 212);
+$halTertiaryDarkColor: rgb(80, 199, 80);
+$halPrimaryMidColor: rgb(255, 251, 0);
+$halSecondaryMidColor: rgb(255, 8, 0);
+$halTertiaryMidColor: rgb(0, 47, 255);
+$halPrimaryMid2Color: rgb(255, 115, 0);
+$halSecondaryMid2Color: rgb(174, 0, 255);
+$halTertiaryMid2Color: rgb(0, 105, 26);
+$halPrimaryLightColor: rgb(242, 255, 248);
+$halSecondaryLightColor: rgb(49, 59, 51);
+$halTertiaryLightColor: rgb(1, 70, 1);
+
 .hal {
+	width: 50%;
 	border-radius: 10px;
+	position: relative;
+	&.dark,
+	&.dark * {
+		background: $halPrimaryDarkColor;
+		color: $halSecondaryDarkColor;
+	}
+	&.mid,
+	&.mid * {
+		background: $halPrimaryMidColor;
+		color: $halSecondaryMidColor;
+	}
+	&.mid {
+		background: linear-gradient(45deg, pink, $halPrimaryMidColor, teal);
+		background-size: 1000% 100%;
+		animation: gradient 5s ease infinite alternate;
+	}
+	&.mid * {
+		background: none;
+	}
+	&.mid2,
+	&.mid2 * {
+		background: $halPrimaryMid2Color;
+		color: $halSecondaryMid2Color;
+	}
+	&.light,
+	&.light * {
+		background: $halPrimaryLightColor;
+		color: $halSecondaryLightColor;
+	}
+	&.light h2,
+	&.light a {
+		color: $halTertiaryLightColor;
+	}
+	&.dark h2,
+	&.dark a {
+		color: $halTertiaryDarkColor;
+	}
+	&.mid h2,
+	&.mid a {
+		color: $halTertiaryMidColor;
+	}
+	&.mid2 h2,
+	&.mid2 a {
+		color: $halTertiaryMid2Color;
+	}
+	button {
+		width: 40px;
+		height: 20px;
+		position: absolute;
+		padding: 0;
+		// margin: 0;
+		bottom: 0;
+		right: 0;
+	}
+	&.dark button {
+		border: 2px solid $halTertiaryDarkColor;
+	}
+	&.mid button {
+		border: 2px solid $halTertiaryMidColor;
+	}
+	&.mid2 button {
+		border: 2px solid $halTertiaryMid2Color;
+	}
+	&.light button {
+		border: 2px solid $halTertiaryLightColor;
+	}
+	&.dark button::before {
+		content: '';
+		position: absolute;
+		top: 1px;
+		left: 2px;
+		font-size: 0px;
+		padding: 1px;
+		margin: 0;
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		background-color: $halTertiaryDarkColor;
+		animation: colorChangeDark 1s ease;
+	}
+	&.mid button::before {
+		content: '';
+		position: absolute;
+		top: 1px;
+		left: 8px;
+		font-size: 0px;
+		padding: 1px;
+		margin: 0;
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		background-color: $halTertiaryMidColor;
+		animation: colorChangeMid 1s ease;
+	}
+	&.mid2 button::before {
+		content: '';
+		position: absolute;
+		top: 1px;
+		left: 13px;
+		font-size: 0px;
+		padding: 1px;
+		margin: 0;
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		background-color: $halTertiaryMid2Color;
+		animation: colorChangeMid2 1s ease;
+	}
+	&.light button::before {
+		content: '';
+		position: absolute;
+		top: 1px;
+		right: 2px;
+		font-size: 0px;
+		padding: 1px;
+		margin: 0;
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		background-color: $halTertiaryLightColor;
+		animation: colorChangeLight 1s ease;
+	}
+	align-items: center;
+	padding: 1%;
+	margin: 1%;
+	* {
+		border-radius: 10px;
+		align-items: center;
+		padding: 1%;
+		margin: 1%;
+	}
+	form {
+		width: 100%;
+	}
+	form label,
+	form input {
+		width: 20%;
+	}
 }
-.hal h2 {
-	color: green;
+
+@keyframes colorChangeDark {
+	0% {
+		background-color: $halTertiaryLightColor;
+		left: 21px;
+	}
+	100% {
+		background-color: $halTertiaryDarkColor;
+		left: 2px;
+	}
+}
+@keyframes colorChangeMid {
+	0% {
+		background-color: $halTertiaryDarkColor;
+		left: 2px;
+	}
+	100% {
+		background-color: $halTertiaryMidColor;
+		left: 8px;
+	}
+}
+@keyframes colorChangeMid2 {
+	0% {
+		background-color: $halTertiaryMidColor;
+		left: 8px;
+	}
+	100% {
+		background-color: $halTertiaryMid2Color;
+		left: 13px;
+	}
+}
+@keyframes colorChangeLight {
+	0% {
+		background-color: $halTertiaryMid2Color;
+		right: 8px;
+	}
+	100% {
+		background-color: $halTertiaryLightColor;
+		right: 2px;
+	}
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 100%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
 }
