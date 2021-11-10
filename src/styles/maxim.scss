@@ -1,5 +1,37 @@
 // Put all your scss into this file inside your .name if you only want to affect your component
 .maxim {
-	// Over HERE!!!  _\o
-	
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    text-shadow: 1px 1px yellow;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-decoration: underline;
+    color: coral;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  background-image: radial-gradient(
+    circle 674px at 18.3% 77%,
+    rgba(139, 186, 244, 1) 3.4%,
+    rgba(15, 51, 92, 1) 56.6%
+  );
+
+  color: white;
+
+  a {
+    color: white;
+  }
+
+  .alarmClockRecommendation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
