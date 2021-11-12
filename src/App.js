@@ -51,44 +51,47 @@ function App() {
 	console.log("Main app did something, so mysterious");
 	return (
 		<Router>
-			<nav>
-				<Link to='/'>Home</Link>
-				<Link to='/TemplateSkeleton'>TemplateSkeleton</Link>
-				{/* add a renamed copy of Link here */}
-				<Link to='/Azalia'>Azalia</Link>
-				<Link to='/Bree'>Bree</Link>
-				<Link to='/Brennan'>Brennan</Link>
-				<Link to='/Brian'>Brian</Link>
-				<Link to='/Brodie'>Brodie</Link>
-				<Link to='/Cal'>Cal</Link>
-				<Link to='/Cam'>Cam</Link>
-				<Link to='/Corey'>Corey</Link>
-				<Link to='/Daniel'>Daniel</Link>
-				<Link to='/Elisabeth'>Elisabeth</Link>
-				<Link to='/Hal'>Hal</Link>
-				<Link to='/Harpreet'>Harpreet</Link>
-				<Link to='/Iris'>Iris</Link>
-				<Link to='/Jasmine'>Jasmine</Link>
-				<Link to='/Jim'>Jim</Link>
-				<Link to='/Josh'>Josh</Link>
-				<Link to='/Jun'>Jun</Link>
-				<Link to='/Kevin'>Kevin</Link>
-				<Link to='/Linh'>Linh</Link>
-				<Link to='/Lou'>Lou</Link>
-				<Link to='/Maxim'>Maxim</Link>
-				<Link to='/Rob'>Rob</Link>
-				<Link to='/Ryan'>Ryan</Link>
-				<Link to='/Sara'>Sara</Link>
-				<Link to='/Seungmin'>Seungmin</Link>
-				<Link to='/Solon'>Solon</Link>
-				<Link to='/Steven'>Steven</Link>
-				<Link to='/Tasnia'>Tasnia</Link>
-				<Link to='/Yousef'>Yousef</Link>
-				<Link to='/Zeynab'>Zeynab</Link>
-			</nav>
+			<header>
+				<nav>
+					<Link to='/'>Home</Link>
+					<Link to='/TemplateSkeleton'>TemplateSkeleton</Link>
+					{/* add a renamed copy of Link here */}
+					<Link to='/Azalia'>Azalia</Link>
+					<Link to='/Bree'>Bree</Link>
+					<Link to='/Brennan'>Brennan</Link>
+					<Link to='/Brian'>Brian</Link>
+					<Link to='/Brodie'>Brodie</Link>
+					<Link to='/Cal'>Cal</Link>
+					<Link to='/Cam'>Cam</Link>
+					<Link to='/Corey'>Corey</Link>
+					<Link to='/Daniel'>Daniel</Link>
+					<Link to='/Elisabeth'>Elisabeth</Link>
+					<Link to='/Hal'>Hal</Link>
+					<Link to='/Harpreet'>Harpreet</Link>
+					<Link to='/Iris'>Iris</Link>
+					<Link to='/Jasmine'>Jasmine</Link>
+					<Link to='/Jim'>Jim</Link>
+					<Link to='/Josh'>Josh</Link>
+					<Link to='/Jun'>Jun</Link>
+					<Link to='/Kevin'>Kevin</Link>
+					<Link to='/Linh'>Linh</Link>
+					<Link to='/Lou'>Lou</Link>
+					<Link to='/Maxim'>Maxim</Link>
+					<Link to='/Rob'>Rob</Link>
+					<Link to='/Ryan'>Ryan</Link>
+					<Link to='/Sara'>Sara</Link>
+					<Link to='/Seungmin'>Seungmin</Link>
+					<Link to='/Solon'>Solon</Link>
+					<Link to='/Steven'>Steven</Link>
+					<Link to='/Tasnia'>Tasnia</Link>
+					<Link to='/Yousef'>Yousef</Link>
+					<Link to='/Zeynab'>Zeynab</Link>
+				</nav>
+				<h1>Buff Crypt 💪🪦</h1>
+				<p>A place for buff skeletons 💪🦴</p>
+			</header>
 			<div className="all">
-				<h1>Buff Crypt</h1>
-				<p>A place for buff skeletons</p>
+
 				<div className="all">
 					<Route exact path='/'>
 						<TemplateSkeleton />

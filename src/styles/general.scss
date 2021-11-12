@@ -1,18 +1,37 @@
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+header>h1, header>p {
+	display: inline;
+}
 nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 	a {
-		margin: 1%;
+		margin: 0.25% 0.5%;
+		padding: 0.25% 1%;
+		text-decoration: none;
+		border-radius: 10px;
+		box-shadow: 1px 1px 1px whitesmoke, -1px 1px 10px lightgray, 1px -1px 10px lightgray, -1px -1px 1px whitesmoke;
+		&:hover {
+			box-shadow: 1px 1px 1px grey, -1px 1px 10px whitesmoke, 1px -1px 10px whitesmoke, -1px -1px 1px grey;
+			color: darkblue;
+		}
 	}
 }
 .all,
-.all div {
+.all>div {
 	display: flex;
 	flex-wrap: wrap;
 	border: 1px solid black;
 }
-img {
+.imgGallery>img,
+.cal img {
 	width: 200px;
 	height: 200px;
 	background-size: contain;
